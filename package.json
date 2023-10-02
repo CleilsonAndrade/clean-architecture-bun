@@ -1,0 +1,17 @@
+{
+  "name": "clean-architecture-bun",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "5.3.1",
+    "elysia": "latest"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "prisma": "^5.3.1"
+  },
+  "module": "src/index.js"
+}
